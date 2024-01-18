@@ -122,4 +122,3 @@ plugins:
   - id: workflow-step-api
   - id: workflow-support
   - id: beer
-  - id: splunk-devops-extend
