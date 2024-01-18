@@ -1,0 +1,11 @@
+apiVersion: '1'
+id: 'child-bundle-a'
+description: 'testing cross repo inheritance'
+availabilityPattern: '.*'
+version: '1'
+
+parent: 'default-global'
+plugins:
+  - 'plugins.yaml'
+catalog:
+  - 'plugin-catalog.yaml'
